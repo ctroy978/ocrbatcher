@@ -1,0 +1,44 @@
+# Python caches and artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+*.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment & secrets
+.env
+.env.local
+.env.*
+!.env.example
+
+# Tooling caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Editors & IDEs
+.idea/
+.vscode/
+
+# Generated output
+out/
+
+# Logs & scratch
+*.log
+*.tmp
+*.swp
+
+# Local credentials
+gen-lang-client.json
